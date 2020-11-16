@@ -45,7 +45,7 @@ function addedPlayerData() { return {
 
 // Display extra things at the top of the page
 var displayThings = [
-	print('you have decided that you must eat everything')
+	'you have decided that you must eat everything'
 ]
 
 // Determines when the game "ends"
