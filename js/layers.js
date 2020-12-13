@@ -26,7 +26,7 @@ addLayer("Fridges", {
     gainMult() { // Calculate the multiplier for main currency from bonuses
         mult = new Decimal(1)
         if (hasUpgrade(this.layer,11)) {
-            mult = mult.times(2)
+            mult = mult.mult(2)
         }
         return mult
     },
